@@ -1,0 +1,169 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Images/photo_2022-12-04_14-38-42.jpg);
+  background-size: cover;
+}
+.snow{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://media.giphy.com/media/UTkht9eZ4Ot68/giphy.gif);
+}
+.wrapper .socalblock {
+  width: 5%;
+  height: 40%;
+  border: 3px solid rgba(255, 255, 255, 0.623);
+  border-radius: 7px;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .socalblock i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.wrapper .socalblock i:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.wrapper .aboutblock {
+  width: 20%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  margin-right: 2rem;
+  border-radius: 7px;
+  border: 3px solid rgba(255, 255, 255, 0.623);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .aboutblock .img {
+  width: 50%;
+  height: 32%;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.623);
+  margin-top: 2rem;
+  transition-timing-function: ease-in-out;
+}
+
+.wrapper .aboutblock h5 {
+  color: #fff;
+  margin-top: 15px;
+}
+
+.wrapper .aboutblock h6 {
+  color: #fff;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.wrapper .aboutblock button {
+  width: 65%;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+}
+
+.wrapper .aboutblock button:hover {
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.wrapper .aboutblock button a {
+  text-decoration: none;
+}
+
+.wrapper .aboutblock button a:hover {
+  color: #fff;
+}
+
+.wrapper .mainblock {
+  width: 60%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 7px;
+  border: 3px solid rgba(255, 255, 255, 0.623);
+  overflow: hidden;
+  display: flex;
+}
+
+.wrapper .mainblock .sidebar {
+  width: 10%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.623);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .mainblock .sidebar .sidebaritem {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #000;
+}
+
+.wrapper .mainblock .sidebar .sidebaritem:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.wrapper .mainblock .sidebar .sidebaritems {
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.mytitle {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.blogscard {
+  background-color: transparent !important;
+  box-shadow: 0px 0px 10px;
+}
+
+.portifolyo {
+  width: 48%;
+  border: 3px solid rgba(255, 255, 255, 0.623);
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.portifolyo:hover {
+  filter: grayscale(0);
+}
+.myInformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutsection{
+  border-left: 3px solid #fff;
+  padding-left: 8px;
+}
+.aboutinform{
+  padding-left: 8px;
+  color: rgba(255, 255, 255, 0.609);
+  transition: all 0.1s ease-in;
+  cursor: default;
+}
+.aboutinform:hover{
+  padding-left: 17px;
+}
